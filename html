@@ -1,0 +1,48 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser</title>
+</head>
+<style>
+    .wufoo {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+    }
+</style>
+
+<body>
+    <h1> ORDER FORM </h1>
+    <form method="get" action="simpleform.html" class="wufoo">
+        <p>What would you like to buy? </p>
+        <select name="DoAn">
+            <option value=" ">A</option>
+            <option value=" ">B</option>
+            <option value=" ">C (................)</option>
+            <br>
+        </select>
+        <p>How many would you like to order?</p>
+        <label><input type="radio" name="abc" />1 - 10$</label><br>
+        <label><input type="radio" name="abc" />2 - 20$</label><br>
+        <label><input type="radio" name="abc" />3 - 30$</label><br>
+        <p>Name <span style="color : red">*</span></p>
+        <input type="text" name="firstname" placeholder="FirstName" size="15" />
+        <input type="text" name="lastname" placeholder="LastName" size="15" />
+        <p>Email</p>
+        <input type="text" name="email" placeholder="Email" size="36" />
+        <p>Phone Number</p>
+        <input type="text" name="number" size="5" />-
+        <input type="text" name="number" size="5" />-
+        <input type="text" name="number" size="5" />
+        <p> <input type="button" name="button" value="Submit" /> </p>
+    </form>
+    </p>
+    <script src="script.js"></script>
+</body>
+
+</html>
